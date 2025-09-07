@@ -1,0 +1,206 @@
+.admin-app-wrapper {
+    width: 70%;
+    height: 98%;
+    background-color: #464F51;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.movie-list {
+    border: 1px solid #00000631;
+    border-radius: 5px 0 0 5px;
+    height: 96%;
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.movie-in-list {
+    width: 100%;
+    height: 5%;
+    border-bottom: 1px solid #0FF4C6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
+}
+
+.movie-in-list:hover {
+    background-color: #0000095b;
+    transition: 0.2s;
+    cursor: pointer;
+    height: 6%;
+}
+
+.movie-in-list-title {
+    width: 98%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    font-size: 23px;
+    font-family: "Syne", sans-serif;
+    color: #DEFFF2;
+    cursor: pointer;
+}
+
+.action-panel {
+    background-color: #0000065d;
+    border-left: none;
+    border-radius: 0 5px 5px 0;
+    height: 96%;
+    width: 48%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+}
+
+.selected-movie-poster-container {
+    height: 60%;
+    width: 60%;
+    border-radius: 20px 0 20px 0;
+    margin-top: 30px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.selected-movie-poster {
+    height: 100%;
+    display: block;
+    object-fit: cover;
+    object-position: center center;
+}
+
+.selected-movie-info {
+    height: 30%;
+    width: 100%;
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.selected-movie-info input {
+    background-color: transparent;
+    border: 1px solid #D68FD6;
+    border-radius: 5px;
+    color: #D68FD6;
+    font-family: "Fredoka", sans-serif;
+    font-size: 20px;
+    text-align: center;
+    padding: 5px 10px;
+    width: 80%;
+    outline: none;
+    transition: border 0.2s ease;
+}
+
+.selected-movie-info input:focus {
+    border-color: #0FF4C6;
+}
+
+.selected-movie-title {
+    font-family: "Fredoka", sans-serif;
+    font-weight: 500;
+    color: #D68FD6;
+    font-size: 40px;
+    margin: 5px;
+    text-align: center;
+}
+
+.selected-movie-directors {
+    font-family: "Fredoka", sans-serif;
+    color: #D68FD6;
+    margin: 5px;
+}
+
+.selected-movie-genres {
+    font-family: "Fredoka", sans-serif;
+    color: #D68FD6;
+    margin: 5px;
+}
+
+.selected-movie-release-year {
+    font-family: "Fredoka", sans-serif;
+    color: #D68FD6;
+    margin: 5px;
+}
+
+.selected-movie-delete {
+    font-family: "Syne", sans-serif;
+    color: rgb(255, 87, 87);
+    font-size: 18px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin: 0;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    transition: 0.2s;
+}
+
+.selected-movie-delete:hover {
+    cursor: pointer;
+    font-size: 20px;
+    transition: 0.2s;
+}
+
+.selected-movie-edit {
+    font-family: "Syne", sans-serif;
+    color: #0FF4C6;
+    font-size: 18px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 0;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    transition: 0.2s;
+}
+
+.selected-movie-edit:hover {
+    cursor: pointer;
+    font-size: 20px;
+    transition: 0.2s;
+}
+
+.add-new-movie-button {
+    width: 100%;
+    height: 5%;
+    border-bottom: 1px solid #0FF4C6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
+    background-color: #252a2c;
+}
+
+.add-new-movie-button:hover {
+    background-color: #16191a;
+}
+
+.add-new-movie-title {
+    width: 98%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    font-size: 23px;
+    font-family: "Syne", sans-serif;
+    color: #DEFFF2;
+    cursor: pointer;
+}
+
+

@@ -1,0 +1,240 @@
+.user-app-wrapper {
+    width: 70%;
+    height: 98%;
+    background-color: #464F51;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.user-icon {
+    background-color: #D68FD6;
+    height: 125px;
+    width: 125px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    font-family: "Fredoka", sans-serif;
+    font-weight: bold;
+    border-radius: 50%;
+    margin-top: 150px;
+    margin-bottom: 10px;
+    color: #000006;
+}
+
+.user-information-section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.user-name {
+    font-size: 50px;
+    margin: 0;
+}
+
+.user-mail {
+    font-size: 18px;
+    margin: 0;
+}
+
+.user-information {
+    color: #D68FD6;
+    font-family: "Syne", sans-serif;
+}
+
+.reviews-section-header {
+    color: #0FF4C6;
+    font-family: "Fredoka", sans-serif;
+    font-size: 35px;
+    width: 97%;
+    margin: 0;
+    margin-top: 55px;
+    z-index: 2;
+}
+
+.user-reviews-section {
+    position: absolute;
+    margin-top: 90px;
+    height: 400px;
+    width: 97%;
+    bottom: 0;
+    border-radius: 0 0 20px 20px;
+    overflow: scroll;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+}
+
+
+
+
+.user-review {
+    width: 350px;
+    height: 125px;
+    border: 1px solid #DEFFF2;
+    border-radius: 20px;
+    box-shadow: 6px 6px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 6px 6px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 6px 6px 5px 0px rgba(0,0,0,0.75);
+    transition: 0.4s;
+
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.movie-poster-background {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center center;
+    filter: blur(5px);
+    display: block;
+    z-index: 0;
+    border-radius: 20px;
+}
+
+.user-review:hover {
+    cursor: pointer;
+    width: 360px;
+    height: 130px;
+    transition: 0.2s;
+}
+
+.review-movie-name {
+    color: #0FF4C6;
+    font-family: "Syne", sans-serif;
+    font-size: 30px;
+    margin: 0;
+    margin-top: 8px;
+    margin-left: 8px;
+    width: 70%;
+    height: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+    text-shadow: 3px 3px 2px rgba(0,0,0,0.6);
+}
+
+.review-movie-rating-container {
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    z-index: 1;
+}
+
+.review-movie-rating {
+    color: #D68FD6;
+    height: 100%;
+    width: 100%;
+    right: 0;
+    z-index: 1;
+}
+
+.review-movie-rating-number {
+    font-family: "Syne", sans-serif;
+    font-size: 25px;
+    z-index: 5;
+    margin: 0;
+    position: absolute;
+    color: #DEFFF2;
+}
+
+.review-made-date {
+    color: #DEFFF2;
+    font-family: "Syne", sans-serif;
+    margin: 0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin-left: 15px;
+    margin-bottom: 2px;
+    opacity: 50%;
+    z-index: 1;
+}
+
+.error-message {
+    font-size: 30px;
+    color: #DEFFF2;
+    font-family: "Syne", sans-serif;
+}
+
+.remove-user-button {
+    position: absolute;
+    width: 100px;
+    height: 50px;
+    background: #0FF4C6;
+    border: none;
+    border-radius: 20px 0 20px 0;
+    left: 0;
+    top: 0;
+    margin-top: 10%;
+    margin-left: 20px;
+    font-family: "Syne", sans-serif;
+    font-size: 18px;
+    transition: 0.4s;
+}
+
+.remove-user-button:hover {
+    border-radius: 20px;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.logout-user-button {
+        position: absolute;
+    width: 100px;
+    height: 50px;
+    background: rgb(255, 79, 79);
+    border: none;
+    border-radius: 20px 0 20px 0;
+    left: 0;
+    top: 0;
+    margin-top: 15%;
+    margin-left: 20px;
+    font-family: "Syne", sans-serif;
+    font-size: 18px;
+    transition: 0.4s;
+}
+
+.logout-user-button:hover {
+    border-radius: 20px;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.remove-user-review-button {
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: rgb(255, 79, 79);
+    z-index: 5;
+    margin-left: 10px;
+    margin-top: 10px;
+    height: 25px;
+    width: 25px;
+    transition: 0.2s;
+}
+
+.remove-user-review-button:hover {
+    transform: rotate(15deg);
+    height: 30px;
+    width: 30px;
+    transition: 0.1s;
+}

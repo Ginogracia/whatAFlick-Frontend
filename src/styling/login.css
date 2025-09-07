@@ -1,0 +1,155 @@
+a {
+  color: #d68fd6;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #0ff4c6;
+  text-decoration: underline;
+}
+
+.page-background {
+    background-color: #000009;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-app-wrapper {
+    width: 70%;
+    height: 98%;
+    background-color: #464F51;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.logo-large {
+    height: 90px;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    margin-top: 25px;
+}
+
+@keyframes softNeonPulse {
+  0%, 100% {
+    text-shadow: 0 0 8px rgba(15, 244, 198, 0.3),
+                 0 0 12px rgba(15, 244, 198, 0.2);
+  }
+  50% {
+    text-shadow: 0 0 12px rgba(15, 244, 198, 0.6),
+                 0 0 18px rgba(15, 244, 198, 0.4);
+  }
+}
+
+.logo-header {
+  margin: 3px 0;
+  font-size: 90px;
+  font-family: "Fredoka", sans-serif;
+  font-weight: 500;
+  color: #0FF4C6;
+  animation: softNeonPulse 5s infinite ease-in-out;
+}
+
+.header-subtext {
+    font-size: 25px;
+    margin: 0;
+    font-family: "Fredoka", sans-serif;
+    font-weight: 500;
+    color: #0FF4C6;
+    margin-bottom: 20px;
+}
+
+.login-section {
+    width: 400px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+input:focus {
+    outline: none;
+}
+
+.username-input-header {
+    font-family: "Syne", sans-serif;
+    font-size: 30px;
+    color: #DEFFF2;
+    margin: 10px;
+    margin-right: 150px;
+}
+
+.username-input {
+    background-color: #000009;
+    border: none;
+    color: #D68FD6;
+    width: 280px;
+    height: 30px;
+    border-radius: 5px;
+    font-family: "Syne", sans-serif;
+    font-size: 20px;
+}
+
+.password-input-header {
+    font-family: "Syne", sans-serif;
+    font-size: 30px;
+    color: #DEFFF2;
+    margin: 10px;
+    margin-top: 20px;
+    margin-right: 150px;
+}
+
+.password-input {
+    background-color: #000009;
+    border: none;
+    color: #D68FD6;
+    width: 280px;
+    height: 30px;
+    border-radius: 5px;
+    font-family: "Syne", sans-serif;
+    font-size: 20px;
+}
+
+.register-text {
+    color: #DEFFF2;
+    font-family: "Syne", sans-serif;
+    margin-top: 20px;
+    font-size: 18px;
+
+}
+
+.login-button {
+    margin-top: 20px;
+    width: 280px;
+    height: 50px;
+    background-color: #D68FD6;
+    border: none;
+    border-radius: 0px 20px 0px 20px;
+    transition: 0.4s;
+    font-family: "Syne", sans-serif;
+    font-size: 35px;
+}
+
+.login-button:hover {
+    border-radius: 20px;
+    transition: 0.2s;
+    font-size: 38px;
+    background-color: rgb(224, 123, 224);
+    cursor: pointer;
+}
+
+.login-error {
+    color: rgb(255, 116, 116);
+    font-family: "Syne", sans-serif;
+    font-size: 18px;
+}
+
+
